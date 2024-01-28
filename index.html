@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You May not know</title>
+
+
+    <style>
+        /* Default styling for details summary */
+        details summary {
+          cursor: pointer;
+          font-weight: bold;
+          font-size: 2rem;
+        }
+      
+        /* Styling for summary when details is open */
+        details.open summary {
+          color: blue; /* Change the color when open */
+          background-color: yellow;
+        }
+      
+        /* Styling for content inside details when open */
+        details.open p {
+          background-color: red; /* Change background color when open */
+        }
+      </style>
+
+</head>
+<body>
+    <!-- details tag accordian start -->
+    <details id="contactdetails">
+        <summary>Contact details</summary>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto molestiae tenetur architecto voluptatibus porro. Laudantium sunt vel dignissimos nesciunt accusantium quam earum! Perspiciatis temporibus maxime voluptate rem consequatur molestiae, commodi unde rerum sit, sint expedita distinctio? Quos hic veniam asperiores quas harum est provident exercitationem soluta numquam. Ipsum, illo et?\</p>
+    </details>
+    <details>
+        <summary>Add ons</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nulla laudantium ea tempore nemo porro accusamus, consequuntur laborum suscipit ex et voluptatem alias ratione iusto natus debitis inventore quasi qui!</p>
+    </details>
+    <details>
+        <summary>Traveller details</summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nulla laudantium ea tempore nemo porro accusamus, consequuntur laborum suscipit ex et voluptatem alias ratione iusto natus debitis inventore quasi qui!</p>
+    </details>
+    <!-- details tag accordian end -->
+
+
+    <!-- Multiple images tag start -->
+    <div>
+        <input type="file" multiple accept=".png, .jpg, .jpeg, .pdf, .txt">
+    </div>
+    <!-- Multiple images tag end -->
+
+    <!-- content editable -->
+    <div contenteditable="true" spellcheck="true">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quisquam nostrum incidunt, est delectus sed atque explicabo alias possimus a fugit ab laborum debitis magnam! Debitis, beatae quis temporibus quaerat veritatis dolores quas hic qui repellendus ratione, accusamus dolore natus quae iusto aut velit explicabo laborum. Perspiciatis adipisci similique quis, omnis repellendus consequuntur beatae delectus sed sunt placeat eum commodi ipsum voluptate autem! Neque consectetur aliquid odit aliquam ex, molestias quia, deleniti harum rerum doloremque ea quis totam repellendus error, magnam a natus accusantium. Ut eum, repudiandae quae aliquam totam voluptate voluptas delectus sapiente expedita eaque esse, quod suscipit mollitia!</p>
+    </div>
+    
+    <!-- content editable -->
+
+    <!-- video poster strat -->
+    <div>
+        <video src="video link" width="300px"  controls poster="https://buffer.com/library/content/images/2023/10/free-images.jpg"></video>
+    </div>
+    <!-- video poster end -->
+
+    <!-- download start -->
+        <a href="https://buffer.com/library/content/images/2023/10/free-images.jpg" download="filename 1">Download</a>
+    <!-- download end -->
+
+    <!-- progress bar start -->
+    <label for="progress">Progress bar</label>
+    <progress value="50" max="200" min="150"></progress>
+    <!-- progress bar end -->
+
+    <script src="script.js"></script>
+</body>
+</html>
